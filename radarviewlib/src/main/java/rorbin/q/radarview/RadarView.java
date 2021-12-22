@@ -30,7 +30,7 @@ import static android.R.attr.maxWidth;
 
 /**
  * @author changhai qiu
- *         Email:qstumn@163.com
+ * Email:qstumn@163.com
  */
 public class RadarView extends View {
     private Context mContext;
@@ -640,7 +640,7 @@ public class RadarView extends View {
     }
 
     protected void drawVertexImpl(Canvas canvas, String text, Bitmap icon, Paint paint,
-                                  float textY, float textX) {
+                                  float textX, float textY) {
         if (icon != null) {
             canvas.drawBitmap(icon, null, mVertexIconRect, paint);
         }
